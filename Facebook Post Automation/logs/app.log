@@ -1,0 +1,531 @@
+2024-12-02 20:59:28,044 - INFO - Installing and loading the extension
+2024-12-02 20:59:42,446 - INFO - Logging into Facebook
+2024-12-02 20:59:43,692 - ERROR - An error occurred: name 'time' is not defined
+2024-12-02 21:01:03,447 - INFO - Installing and loading the extension
+2024-12-02 21:01:05,610 - INFO - Logging into Facebook
+2024-12-02 21:01:19,221 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:24:24,377 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:24:24,377 - INFO - Installing and loading the extension
+2024-12-02 21:24:26,561 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:24:41,433 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:26:39,469 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:26:39,474 - INFO - Installing and loading the extension
+2024-12-02 21:26:41,611 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:26:44,756 - ERROR - An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF672666CB5+28821]
+	(No symbol) [0x00007FF6725D3840]
+	(No symbol) [0x00007FF67247578A]
+	(No symbol) [0x00007FF67244F4F5]
+	(No symbol) [0x00007FF6724F6247]
+	(No symbol) [0x00007FF67250ECE2]
+	(No symbol) [0x00007FF6724EF0A3]
+	(No symbol) [0x00007FF6724BA778]
+	(No symbol) [0x00007FF6724BB8E1]
+	GetHandleVerifier [0x00007FF67299FCAD+3408013]
+	GetHandleVerifier [0x00007FF6729B741F+3504127]
+	GetHandleVerifier [0x00007FF6729AB5FD+3455453]
+	GetHandleVerifier [0x00007FF67272BDBB+835995]
+	(No symbol) [0x00007FF6725DEB5F]
+	(No symbol) [0x00007FF6725DA814]
+	(No symbol) [0x00007FF6725DA9AD]
+	(No symbol) [0x00007FF6725CA199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-02 21:28:25,324 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:28:25,325 - INFO - Installing and loading the extension
+2024-12-02 21:28:27,886 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:28:46,219 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:29:52,745 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:29:52,746 - INFO - Installing and loading the extension
+2024-12-02 21:29:55,542 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:29:59,694 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="email"]"}
+  (Session info: chrome=131.0.6778.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF672666CB5+28821]
+	(No symbol) [0x00007FF6725D3840]
+	(No symbol) [0x00007FF67247578A]
+	(No symbol) [0x00007FF6724C91BE]
+	(No symbol) [0x00007FF6724C94AC]
+	(No symbol) [0x00007FF672512647]
+	(No symbol) [0x00007FF6724EF33F]
+	(No symbol) [0x00007FF67250F412]
+	(No symbol) [0x00007FF6724EF0A3]
+	(No symbol) [0x00007FF6724BA778]
+	(No symbol) [0x00007FF6724BB8E1]
+	GetHandleVerifier [0x00007FF67299FCAD+3408013]
+	GetHandleVerifier [0x00007FF6729B741F+3504127]
+	GetHandleVerifier [0x00007FF6729AB5FD+3455453]
+	GetHandleVerifier [0x00007FF67272BDBB+835995]
+	(No symbol) [0x00007FF6725DEB5F]
+	(No symbol) [0x00007FF6725DA814]
+	(No symbol) [0x00007FF6725DA9AD]
+	(No symbol) [0x00007FF6725CA199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-02 21:31:24,199 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:31:24,200 - INFO - Installing and loading the extension
+2024-12-02 21:31:26,656 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:31:36,077 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:32:07,913 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:32:07,914 - INFO - Installing and loading the extension
+2024-12-02 21:32:10,353 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:32:19,917 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:32:56,632 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:32:56,632 - INFO - Installing and loading the extension
+2024-12-02 21:32:59,026 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:33:03,522 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[name='login']"}
+  (Session info: chrome=131.0.6778.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF672666CB5+28821]
+	(No symbol) [0x00007FF6725D3840]
+	(No symbol) [0x00007FF67247578A]
+	(No symbol) [0x00007FF6724C91BE]
+	(No symbol) [0x00007FF6724C94AC]
+	(No symbol) [0x00007FF672512647]
+	(No symbol) [0x00007FF6724EF33F]
+	(No symbol) [0x00007FF67250F412]
+	(No symbol) [0x00007FF6724EF0A3]
+	(No symbol) [0x00007FF6724BA778]
+	(No symbol) [0x00007FF6724BB8E1]
+	GetHandleVerifier [0x00007FF67299FCAD+3408013]
+	GetHandleVerifier [0x00007FF6729B741F+3504127]
+	GetHandleVerifier [0x00007FF6729AB5FD+3455453]
+	GetHandleVerifier [0x00007FF67272BDBB+835995]
+	(No symbol) [0x00007FF6725DEB5F]
+	(No symbol) [0x00007FF6725DA814]
+	(No symbol) [0x00007FF6725DA9AD]
+	(No symbol) [0x00007FF6725CA199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-02 21:38:44,819 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:38:44,823 - INFO - Installing and loading the extension
+2024-12-02 21:38:47,376 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:38:56,950 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:49:03,839 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:49:03,840 - INFO - Installing and loading the extension
+2024-12-02 21:49:06,311 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:49:10,056 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[aria-label="Log in"]"}
+  (Session info: chrome=131.0.6778.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF672666CB5+28821]
+	(No symbol) [0x00007FF6725D3840]
+	(No symbol) [0x00007FF67247578A]
+	(No symbol) [0x00007FF6724C91BE]
+	(No symbol) [0x00007FF6724C94AC]
+	(No symbol) [0x00007FF672512647]
+	(No symbol) [0x00007FF6724EF33F]
+	(No symbol) [0x00007FF67250F412]
+	(No symbol) [0x00007FF6724EF0A3]
+	(No symbol) [0x00007FF6724BA778]
+	(No symbol) [0x00007FF6724BB8E1]
+	GetHandleVerifier [0x00007FF67299FCAD+3408013]
+	GetHandleVerifier [0x00007FF6729B741F+3504127]
+	GetHandleVerifier [0x00007FF6729AB5FD+3455453]
+	GetHandleVerifier [0x00007FF67272BDBB+835995]
+	(No symbol) [0x00007FF6725DEB5F]
+	(No symbol) [0x00007FF6725DA814]
+	(No symbol) [0x00007FF6725DA9AD]
+	(No symbol) [0x00007FF6725CA199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-02 21:50:02,652 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:50:02,653 - INFO - Installing and loading the extension
+2024-12-02 21:50:05,024 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:50:17,557 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:50:31,979 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:50:31,980 - INFO - Installing and loading the extension
+2024-12-02 21:50:34,341 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:50:47,159 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:51:11,300 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:51:11,309 - INFO - Installing and loading the extension
+2024-12-02 21:51:13,863 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:51:25,795 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:53:20,684 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:53:20,685 - INFO - Installing and loading the extension
+2024-12-02 21:53:23,264 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:53:27,280 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="email"]"}
+  (Session info: chrome=131.0.6778.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF672666CB5+28821]
+	(No symbol) [0x00007FF6725D3840]
+	(No symbol) [0x00007FF67247578A]
+	(No symbol) [0x00007FF6724C91BE]
+	(No symbol) [0x00007FF6724C94AC]
+	(No symbol) [0x00007FF672512647]
+	(No symbol) [0x00007FF6724EF33F]
+	(No symbol) [0x00007FF67250F412]
+	(No symbol) [0x00007FF6724EF0A3]
+	(No symbol) [0x00007FF6724BA778]
+	(No symbol) [0x00007FF6724BB8E1]
+	GetHandleVerifier [0x00007FF67299FCAD+3408013]
+	GetHandleVerifier [0x00007FF6729B741F+3504127]
+	GetHandleVerifier [0x00007FF6729AB5FD+3455453]
+	GetHandleVerifier [0x00007FF67272BDBB+835995]
+	(No symbol) [0x00007FF6725DEB5F]
+	(No symbol) [0x00007FF6725DA814]
+	(No symbol) [0x00007FF6725DA9AD]
+	(No symbol) [0x00007FF6725CA199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-02 21:54:00,792 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:54:00,808 - INFO - Installing and loading the extension
+2024-12-02 21:54:03,207 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 21:54:12,093 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:00:24,153 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:00:24,154 - INFO - Installing and loading the extension
+2024-12-02 22:00:29,058 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:00:42,381 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:01:14,723 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:01:14,736 - INFO - Installing and loading the extension
+2024-12-02 22:01:17,061 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:01:37,071 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:03:54,737 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:03:54,738 - INFO - Installing and loading the extension
+2024-12-02 22:03:57,194 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:04:06,715 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:04:06,716 - INFO - Navigating to the extension page
+2024-12-02 22:04:32,453 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:04:32,456 - INFO - Installing and loading the extension
+2024-12-02 22:04:34,850 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:04:49,932 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:04:49,932 - INFO - Navigating to the extension page
+2024-12-02 22:15:55,127 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:15:55,128 - INFO - Installing and loading the extension
+2024-12-02 22:15:57,754 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:16:09,601 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:16:10,087 - ERROR - An error occurred: Could not find the extension ID.
+2024-12-02 22:17:55,305 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:17:55,306 - INFO - Installing and loading the extension
+2024-12-02 22:17:57,699 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:18:10,056 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:18:10,061 - INFO - Navigating to the extension page
+2024-12-02 22:19:23,077 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:19:23,103 - INFO - Installing and loading the extension
+2024-12-02 22:19:25,592 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:19:40,084 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:19:40,085 - INFO - Navigating to the extension page
+2024-12-02 22:28:34,727 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:28:34,734 - INFO - Installing and loading the extension
+2024-12-02 22:28:37,351 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:28:49,492 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:29:00,377 - ERROR - An error occurred: Could not find or enable the developer mode toggle.
+2024-12-02 22:33:46,290 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:33:46,295 - INFO - Installing and loading the extension
+2024-12-02 22:33:48,799 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:34:01,109 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:34:01,109 - INFO - Navigating to the extension page
+2024-12-02 22:34:01,110 - ERROR - An error occurred: get_extension_id() missing 1 required positional argument: 'browser'
+2024-12-02 22:34:19,755 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:34:19,758 - INFO - Installing and loading the extension
+2024-12-02 22:34:22,164 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:34:34,536 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:34:34,537 - INFO - Navigating to the extension page
+2024-12-02 22:34:45,359 - ERROR - An error occurred: Could not find or enable the developer mode toggle.
+2024-12-02 22:36:47,818 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:36:47,819 - INFO - Installing and loading the extension
+2024-12-02 22:36:50,703 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:37:03,499 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:37:03,500 - INFO - Navigating to the extension page
+2024-12-02 22:37:14,288 - ERROR - An error occurred: Could not find or enable the developer mode toggle.
+2024-12-02 22:40:02,426 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:40:02,436 - INFO - Installing and loading the extension
+2024-12-02 22:40:04,976 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:40:14,137 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:40:14,137 - INFO - Navigating to the extension page
+2024-12-02 22:40:24,873 - ERROR - An error occurred: Could not find or enable the developer mode toggle.
+2024-12-02 22:40:54,873 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:40:54,873 - INFO - Installing and loading the extension
+2024-12-02 22:40:57,393 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:41:07,551 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:41:07,551 - INFO - Navigating to the extension page
+2024-12-02 22:41:18,342 - ERROR - An error occurred: Could not find or enable the developer mode toggle.
+2024-12-02 22:45:45,695 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:45:45,696 - INFO - Installing and loading the extension
+2024-12-02 22:45:48,380 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:45:57,680 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:45:57,681 - INFO - Navigating to the extension page
+2024-12-02 22:45:58,546 - ERROR - An error occurred: name 'time' is not defined
+2024-12-02 22:58:42,475 - INFO - Processing account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:58:42,476 - INFO - Installing and loading the extension
+2024-12-02 22:58:45,126 - INFO - Logging into Facebook with username: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:58:55,055 - INFO - Successfully logged in with account: ifyounowthinkaboutit@gmail.com
+2024-12-02 22:58:55,055 - INFO - Navigating to the extension page
+2024-12-02 23:05:55,135 - INFO - Processing account: gilowev327@tignee.com
+2024-12-02 23:05:55,137 - INFO - Installing and loading the extension
+2024-12-02 23:05:59,827 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-02 23:06:06,139 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-02 23:06:06,141 - INFO - Navigating to the extension page
+2024-12-02 23:08:10,514 - INFO - Processing account: p4m2pdjqw3@jxpomup.com
+2024-12-02 23:08:10,514 - INFO - Installing and loading the extension
+2024-12-02 23:08:12,863 - INFO - Logging into Facebook with username: p4m2pdjqw3@jxpomup.com
+2024-12-02 23:08:22,116 - INFO - Processing account: gilowev327@tignee.com
+2024-12-02 23:08:22,130 - INFO - Installing and loading the extension
+2024-12-02 23:08:24,599 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-02 23:08:34,427 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-02 23:08:34,429 - INFO - Navigating to the extension page
+2024-12-02 23:09:12,264 - INFO - Processing account: gilowev327@tignee.com
+2024-12-02 23:09:12,264 - INFO - Installing and loading the extension
+2024-12-02 23:09:14,854 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-02 23:09:22,001 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-02 23:09:22,001 - INFO - Navigating to the extension page
+2024-12-02 23:15:48,534 - INFO - Processing account: gilowev327@tignee.com
+2024-12-02 23:15:48,540 - INFO - Installing and loading the extension
+2024-12-02 23:15:51,035 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-02 23:15:58,905 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-02 23:15:58,907 - INFO - Navigating to the extension page
+2024-12-02 23:17:06,933 - INFO - Processing account: gilowev327@tignee.com
+2024-12-02 23:17:06,934 - INFO - Installing and loading the extension
+2024-12-02 23:17:09,395 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-02 23:17:17,963 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-02 23:17:17,964 - INFO - Navigating to the extension page
+2024-12-02 23:18:11,725 - INFO - Processing account: p4m2pdjqw3@jxpomup.com
+2024-12-02 23:18:11,725 - INFO - Installing and loading the extension
+2024-12-02 23:18:14,418 - INFO - Logging into Facebook with username: p4m2pdjqw3@jxpomup.com
+2024-12-02 23:41:36,705 - INFO - Processing account: gilowev327@tignee.com
+2024-12-02 23:41:36,708 - INFO - Installing and loading the extension
+2024-12-02 23:41:39,426 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-02 23:41:55,181 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-02 23:41:55,181 - INFO - Navigating to the extension page
+2024-12-02 23:44:29,290 - INFO - Processing account: p4m2pdjqw3@jxpomup.com
+2024-12-02 23:44:29,291 - INFO - Installing and loading the extension
+2024-12-02 23:44:31,949 - INFO - Logging into Facebook with username: p4m2pdjqw3@jxpomup.com
+2024-12-03 00:14:06,469 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 00:14:06,469 - INFO - Installing and loading the extension
+2024-12-03 00:14:11,025 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 00:14:18,761 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 00:14:18,762 - INFO - Navigating to the extension page
+2024-12-03 00:16:52,423 - INFO - Processing account: p4m2pdjqw3@jxpomup.com
+2024-12-03 00:16:52,423 - INFO - Installing and loading the extension
+2024-12-03 00:16:54,652 - INFO - Logging into Facebook with username: p4m2pdjqw3@jxpomup.com
+2024-12-03 00:16:59,905 - INFO - Successfully logged in with account: p4m2pdjqw3@jxpomup.com
+2024-12-03 00:16:59,905 - INFO - Navigating to the extension page
+2024-12-03 00:40:40,992 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 00:40:40,992 - INFO - Installing and loading the extension
+2024-12-03 00:40:43,471 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 00:40:45,556 - ERROR - An error occurred: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="email"]"}
+  (Session info: chrome=131.0.6778.86); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF708326CB5+28821]
+	(No symbol) [0x00007FF708293840]
+	(No symbol) [0x00007FF70813578A]
+	(No symbol) [0x00007FF7081891BE]
+	(No symbol) [0x00007FF7081894AC]
+	(No symbol) [0x00007FF7081D2647]
+	(No symbol) [0x00007FF7081AF33F]
+	(No symbol) [0x00007FF7081CF412]
+	(No symbol) [0x00007FF7081AF0A3]
+	(No symbol) [0x00007FF70817A778]
+	(No symbol) [0x00007FF70817B8E1]
+	GetHandleVerifier [0x00007FF70865FCAD+3408013]
+	GetHandleVerifier [0x00007FF70867741F+3504127]
+	GetHandleVerifier [0x00007FF70866B5FD+3455453]
+	GetHandleVerifier [0x00007FF7083EBDBB+835995]
+	(No symbol) [0x00007FF70829EB5F]
+	(No symbol) [0x00007FF70829A814]
+	(No symbol) [0x00007FF70829A9AD]
+	(No symbol) [0x00007FF70828A199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-03 00:41:21,988 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 00:41:21,990 - INFO - Installing and loading the extension
+2024-12-03 00:41:24,014 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 00:41:26,564 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 00:41:26,564 - INFO - Navigating to the extension page
+2024-12-03 00:42:11,114 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 00:42:11,114 - INFO - Installing and loading the extension
+2024-12-03 00:42:13,684 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 00:42:20,731 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 00:42:20,732 - INFO - Navigating to the extension page
+2024-12-03 00:42:58,275 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 00:42:58,275 - INFO - Installing and loading the extension
+2024-12-03 00:43:00,811 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 00:43:08,738 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 00:43:08,738 - INFO - Navigating to the extension page
+2024-12-03 01:08:20,373 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 01:08:20,381 - INFO - Installing and loading the extension
+2024-12-03 01:08:23,180 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 01:08:30,608 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 01:08:30,609 - INFO - Navigating to the extension page
+2024-12-03 01:09:22,892 - ERROR - An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E1A46CB5+28821]
+	(No symbol) [0x00007FF7E19B3840]
+	(No symbol) [0x00007FF7E185578A]
+	(No symbol) [0x00007FF7E182F4F5]
+	(No symbol) [0x00007FF7E18D6247]
+	(No symbol) [0x00007FF7E18EECE2]
+	(No symbol) [0x00007FF7E18CF0A3]
+	(No symbol) [0x00007FF7E189A778]
+	(No symbol) [0x00007FF7E189B8E1]
+	GetHandleVerifier [0x00007FF7E1D7FCAD+3408013]
+	GetHandleVerifier [0x00007FF7E1D9741F+3504127]
+	GetHandleVerifier [0x00007FF7E1D8B5FD+3455453]
+	GetHandleVerifier [0x00007FF7E1B0BDBB+835995]
+	(No symbol) [0x00007FF7E19BEB5F]
+	(No symbol) [0x00007FF7E19BA814]
+	(No symbol) [0x00007FF7E19BA9AD]
+	(No symbol) [0x00007FF7E19AA199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-03 01:11:45,594 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 01:11:45,596 - INFO - Installing and loading the extension
+2024-12-03 01:11:48,122 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 01:11:56,446 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 01:11:56,450 - INFO - Navigating to the extension page
+2024-12-03 01:13:28,585 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 01:13:28,585 - INFO - Installing and loading the extension
+2024-12-03 01:13:31,003 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 01:13:39,870 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 01:13:39,870 - INFO - Navigating to the extension page
+2024-12-03 01:13:42,418 - ERROR - An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E1A46CB5+28821]
+	(No symbol) [0x00007FF7E19B3840]
+	(No symbol) [0x00007FF7E185578A]
+	(No symbol) [0x00007FF7E182F4F5]
+	(No symbol) [0x00007FF7E18D6247]
+	(No symbol) [0x00007FF7E18EECE2]
+	(No symbol) [0x00007FF7E18CF0A3]
+	(No symbol) [0x00007FF7E189A778]
+	(No symbol) [0x00007FF7E189B8E1]
+	GetHandleVerifier [0x00007FF7E1D7FCAD+3408013]
+	GetHandleVerifier [0x00007FF7E1D9741F+3504127]
+	GetHandleVerifier [0x00007FF7E1D8B5FD+3455453]
+	GetHandleVerifier [0x00007FF7E1B0BDBB+835995]
+	(No symbol) [0x00007FF7E19BEB5F]
+	(No symbol) [0x00007FF7E19BA814]
+	(No symbol) [0x00007FF7E19BA9AD]
+	(No symbol) [0x00007FF7E19AA199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-03 01:15:03,917 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 01:15:03,924 - INFO - Installing and loading the extension
+2024-12-03 01:15:08,608 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 01:15:16,209 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 01:15:16,210 - INFO - Navigating to the extension page
+2024-12-03 01:15:18,878 - ERROR - An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7E1A46CB5+28821]
+	(No symbol) [0x00007FF7E19B3840]
+	(No symbol) [0x00007FF7E185578A]
+	(No symbol) [0x00007FF7E182F4F5]
+	(No symbol) [0x00007FF7E18D6247]
+	(No symbol) [0x00007FF7E18EECE2]
+	(No symbol) [0x00007FF7E18CF0A3]
+	(No symbol) [0x00007FF7E189A778]
+	(No symbol) [0x00007FF7E189B8E1]
+	GetHandleVerifier [0x00007FF7E1D7FCAD+3408013]
+	GetHandleVerifier [0x00007FF7E1D9741F+3504127]
+	GetHandleVerifier [0x00007FF7E1D8B5FD+3455453]
+	GetHandleVerifier [0x00007FF7E1B0BDBB+835995]
+	(No symbol) [0x00007FF7E19BEB5F]
+	(No symbol) [0x00007FF7E19BA814]
+	(No symbol) [0x00007FF7E19BA9AD]
+	(No symbol) [0x00007FF7E19AA199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-03 01:18:17,170 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 01:18:17,172 - INFO - Installing and loading the extension
+2024-12-03 01:18:17,187 - ERROR - An error occurred: [WinError 267] The directory name is invalid: 'C:/Users/Hamim/Desktop/Huzaifa/client work/Facebook Post Automation Project WTS/extensions/Post Facebook Groups By IDs 2021 - JERA.zip'
+2024-12-03 01:18:51,956 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 01:18:51,956 - INFO - Installing and loading the extension
+2024-12-03 01:18:51,961 - ERROR - An error occurred: WebDriver.__init__() got an unexpected keyword argument 'firefox_profile'
+2024-12-03 01:19:09,216 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 01:19:09,217 - INFO - Installing and loading the extension
+2024-12-03 01:19:09,226 - ERROR - An error occurred: [WinError 267] The directory name is invalid: 'C:/Users/Hamim/Desktop/Huzaifa/client work/Facebook Post Automation Project WTS/extensions/Post Facebook Groups By IDs 2021 - JERA.zip'
+2024-12-03 01:51:20,057 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 01:51:20,057 - INFO - Installing and loading the extension
+2024-12-03 01:51:22,519 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 01:51:30,942 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 01:51:30,942 - INFO - Navigating to the extension page
+2024-12-03 01:51:33,321 - ERROR - An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7F26A6CB5+28821]
+	(No symbol) [0x00007FF7F2613840]
+	(No symbol) [0x00007FF7F24B578A]
+	(No symbol) [0x00007FF7F248F4F5]
+	(No symbol) [0x00007FF7F2536247]
+	(No symbol) [0x00007FF7F254ECE2]
+	(No symbol) [0x00007FF7F252F0A3]
+	(No symbol) [0x00007FF7F24FA778]
+	(No symbol) [0x00007FF7F24FB8E1]
+	GetHandleVerifier [0x00007FF7F29DFCAD+3408013]
+	GetHandleVerifier [0x00007FF7F29F741F+3504127]
+	GetHandleVerifier [0x00007FF7F29EB5FD+3455453]
+	GetHandleVerifier [0x00007FF7F276BDBB+835995]
+	(No symbol) [0x00007FF7F261EB5F]
+	(No symbol) [0x00007FF7F261A814]
+	(No symbol) [0x00007FF7F261A9AD]
+	(No symbol) [0x00007FF7F260A199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+
+2024-12-03 02:05:08,208 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 02:05:08,211 - INFO - Installing and loading the extension
+2024-12-03 02:05:10,824 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 02:05:18,362 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 02:05:36,827 - ERROR - An error occurred: Message: 
+
+2024-12-03 02:09:22,344 - ERROR - An error occurred: 'extension_file'
+2024-12-03 02:11:04,794 - ERROR - An error occurred: 'extension_file'
+2024-12-03 02:13:40,062 - ERROR - An error occurred: 'extension_file'
+2024-12-03 02:13:46,812 - ERROR - An error occurred: 'extension_file'
+2024-12-03 02:14:13,893 - ERROR - An error occurred: 'extension_file'
+2024-12-03 02:18:09,666 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 02:18:09,667 - INFO - Installing and loading extensions
+2024-12-03 02:18:14,639 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 02:18:23,556 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 02:18:23,557 - INFO - Using Fewfeed to join groups
+2024-12-03 02:18:38,889 - INFO - Using Fewfeed to post to groups
+2024-12-03 02:18:57,353 - INFO - Processing account: p4m2pdjqw3@jxpomup.com
+2024-12-03 02:18:57,353 - INFO - Installing and loading extensions
+2024-12-03 02:19:00,108 - INFO - Logging into Facebook with username: p4m2pdjqw3@jxpomup.com
+2024-12-03 02:21:13,543 - INFO - Processing account: gilowev327@tignee.com
+2024-12-03 02:21:13,545 - INFO - Installing and loading extensions
+2024-12-03 02:21:16,636 - INFO - Logging into Facebook with username: gilowev327@tignee.com
+2024-12-03 02:21:24,279 - INFO - Successfully logged in with account: gilowev327@tignee.com
+2024-12-03 02:21:24,280 - INFO - Using Fewfeed to join groups
+2024-12-03 02:21:51,121 - INFO - Using Fewfeed to post to groups
+2024-12-03 02:22:21,139 - ERROR - An error occurred: Message: script timeout
+  (Session info: chrome=131.0.6778.86)
+Stacktrace:
+	GetHandleVerifier [0x00007FF74AAD6CB5+28821]
+	(No symbol) [0x00007FF74AA43840]
+	(No symbol) [0x00007FF74A8E55B9]
+	(No symbol) [0x00007FF74A9806E6]
+	(No symbol) [0x00007FF74A95F2FA]
+	(No symbol) [0x00007FF74A97F412]
+	(No symbol) [0x00007FF74A95F0A3]
+	(No symbol) [0x00007FF74A92A778]
+	(No symbol) [0x00007FF74A92B8E1]
+	GetHandleVerifier [0x00007FF74AE0FCAD+3408013]
+	GetHandleVerifier [0x00007FF74AE2741F+3504127]
+	GetHandleVerifier [0x00007FF74AE1B5FD+3455453]
+	GetHandleVerifier [0x00007FF74AB9BDBB+835995]
+	(No symbol) [0x00007FF74AA4EB5F]
+	(No symbol) [0x00007FF74AA4A814]
+	(No symbol) [0x00007FF74AA4A9AD]
+	(No symbol) [0x00007FF74AA3A199]
+	BaseThreadInitThunk [0x00007FFFA7D87374+20]
+	RtlUserThreadStart [0x00007FFFA9D9CC91+33]
+

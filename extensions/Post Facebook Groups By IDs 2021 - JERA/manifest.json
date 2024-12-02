@@ -1,0 +1,26 @@
+{
+  "name": "Auto Post Groups by ID 2021 - JERA ",
+  "description": "BY JERA",
+  "version": "4.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {},
+  "permissions": [
+    "storage",
+    "*://*.facebook.com/*",
+    "*://*.blogspot.com/*",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "downloads",
+    "cookies"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "background": {
+    "scripts": ["index.js"]
+  }
+}

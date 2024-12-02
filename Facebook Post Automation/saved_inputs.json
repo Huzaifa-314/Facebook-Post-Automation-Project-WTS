@@ -1,0 +1,9 @@
+{
+    "threads": 10,
+    "group_uuids_file": "C:/Users/Hamim/Desktop/Huzaifa/client work/Facebook Post Automation Project WTS/nece_files/groups.txt",
+    "accounts_file": "C:/Users/Hamim/Desktop/Huzaifa/client work/Facebook Post Automation Project WTS/nece_files/accounts.txt",
+    "links_file": "C:/Users/Hamim/Desktop/Huzaifa/client work/Facebook Post Automation Project WTS/nece_files/links.txt",
+    "password": "opop00",
+    "extension_file_1": "C:/Users/Hamim/Desktop/Huzaifa/client work/Facebook Post Automation Project WTS/extensions/Post Facebook Groups By IDs 2021 - JERA.zip",
+    "extension_file_2": "C:/Users/Hamim/Desktop/Huzaifa/client work/Facebook Post Automation Project WTS/extensions/FewFeeD V2.zip"
+}

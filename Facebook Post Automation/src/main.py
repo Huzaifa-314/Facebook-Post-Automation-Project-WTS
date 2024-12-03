@@ -20,10 +20,12 @@ def start_browser_and_login(inputs):
     """
     try:
         # Extract inputs from UI
+        threads = inputs["threads"]
         extension_file_1 = inputs["extension_file_1"]
         extension_file_2 = inputs["extension_file_2"]
         accounts_file = inputs["accounts_file"]
         links_file = inputs["links_file"]
+        group_uuids_file = inputs["group_uuids_file"]
         password = inputs["password"]
 
         # Read accounts and links from the files
@@ -31,6 +33,9 @@ def start_browser_and_login(inputs):
             usernames = f.read().splitlines()
         with open(links_file, "r") as f:
             links = f.read().splitlines()
+        # Load group UUIDs
+        with open(group_uuids_file, "r") as f:
+            group_uuids = f.read().splitlines()
 
         if not usernames:
             raise ValueError("No usernames found in the accounts file!")
@@ -41,7 +46,7 @@ def start_browser_and_login(inputs):
         link_cycle = cycle(links)
 
         # Process each account
-        for username in usernames:
+        for account_index,username in enumerate(usernames):
             link = next(link_cycle)
             logging.info(f"Processing account: {username}")
             print(f"Processing account: {username}")
@@ -60,9 +65,9 @@ def start_browser_and_login(inputs):
             ############################################
             # Fewfeed logic: join groups and post to groups
             logging.info("Using Fewfeed to join groups")
-            join_groups(browser)
+            join_groups(browser, group_uuids, account_index)
             logging.info("Using Fewfeed to post to groups")
-            post_to_groups(browser)
+            post_to_groups(browser,link)
 
             ########################################
             # JERA extension logic
@@ -76,7 +81,7 @@ def start_browser_and_login(inputs):
             # handle_link_input(browser, link)
 
             # Keep browser open for verification (optional)
-            time.sleep(10)
+            time.sleep(1)
 
             # Close browser after processing each account
             browser.quit()
@@ -91,6 +96,16 @@ def start_ui():
     """
     root = tk.Tk()
     app = BotUI(root)
+
+    # Add a protocol handler for the window close event
+    inputs = {}
+
+    def on_closing():
+        print("UI closed without collecting inputs. Exiting...")
+        root.destroy()  # Destroy the Tkinter root window
+        raise SystemExit  # Exit the script gracefully
+
+    root.protocol("WM_DELETE_WINDOW", on_closing)  # Attach the on_closing function to the close button
     root.mainloop()
 
     # Collect inputs after UI is closed
@@ -98,8 +113,12 @@ def start_ui():
     return inputs
 
 if __name__ == "__main__":
-    # Start the UI and get the inputs
-    user_inputs = start_ui()
+    try:
+        # Start the UI and get the inputs
+        user_inputs = start_ui()
 
-    # Start the browser and log in to Facebook using the collected inputs
-    start_browser_and_login(user_inputs)
+        # Start the browser and log in to Facebook using the collected inputs
+        start_browser_and_login(user_inputs)
+    except SystemExit:
+        print("Program exited gracefully after UI closure.")
+

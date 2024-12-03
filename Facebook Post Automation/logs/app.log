@@ -678,3 +678,26 @@ Stacktrace:
 2024-12-03 18:43:25,308 - ERROR - Error processing account hpn29636@inohm.com: HTTPConnectionPool(host='localhost', port=32440): Read timed out. (read timeout=120)
 2024-12-03 18:44:46,835 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=32439): Read timed out. (read timeout=120)")': /session/c45c8258046edbbf103791c8d29bf682/title
 2024-12-03 18:45:25,346 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=32440): Read timed out. (read timeout=120)")': /session/4baaa85396f23a7d6df1e78330531d94
+2024-12-03 19:15:34,128 - INFO - Processing account: caboh37991@tignee.com
+2024-12-03 19:15:34,129 - INFO - Installing and loading extensions
+2024-12-03 19:15:36,949 - INFO - Logging into Facebook with username: caboh37991@tignee.com
+2024-12-03 19:15:44,998 - INFO - Successfully logged in with account: caboh37991@tignee.com
+2024-12-03 19:15:44,999 - INFO - Navigating to JERA extension page
+2024-12-03 19:15:58,343 - INFO - Processing account: risosa3531@zenipla.com
+2024-12-03 19:15:58,344 - INFO - Installing and loading extensions
+2024-12-03 19:16:08,405 - INFO - Processing account: caboh37991@tignee.com
+2024-12-03 19:16:08,405 - INFO - Installing and loading extensions
+2024-12-03 19:16:10,979 - INFO - Logging into Facebook with username: caboh37991@tignee.com
+2024-12-03 19:16:18,909 - INFO - Successfully logged in with account: caboh37991@tignee.com
+2024-12-03 19:16:18,910 - INFO - Navigating to JERA extension page
+2024-12-03 19:17:53,184 - INFO - Processing account: caboh37991@tignee.com
+2024-12-03 19:17:53,186 - INFO - Installing and loading extensions
+2024-12-03 19:17:55,799 - INFO - Logging into Facebook with username: caboh37991@tignee.com
+2024-12-03 19:18:04,507 - INFO - Successfully logged in with account: caboh37991@tignee.com
+2024-12-03 19:18:04,508 - INFO - Navigating to JERA extension page
+2024-12-03 19:18:04,508 - ERROR - An error occurred: get_extension_id() missing 1 required positional argument: 'browser'
+2024-12-03 19:18:24,258 - INFO - Processing account: caboh37991@tignee.com
+2024-12-03 19:18:24,260 - INFO - Installing and loading extensions
+2024-12-03 19:18:26,856 - INFO - Logging into Facebook with username: caboh37991@tignee.com
+2024-12-03 19:18:36,275 - INFO - Successfully logged in with account: caboh37991@tignee.com
+2024-12-03 19:18:36,279 - INFO - Navigating to JERA extension page

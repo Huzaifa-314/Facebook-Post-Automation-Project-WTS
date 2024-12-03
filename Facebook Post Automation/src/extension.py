@@ -28,7 +28,7 @@ def get_extension_id(browser):
     :return: Extension's unique ID.
     """
     browser.execute_script("window.open('');")  # Open a new tab
-    browser.switch_to.window(browser.window_handles[1])
+    browser.switch_to.window(browser.window_handles[-1])
     browser.get("chrome://extensions/")  # Go to the Chrome extensions page
 
     # Enable developer mode using JavaScript to traverse shadow DOM

@@ -675,3 +675,6 @@ Stacktrace:
 2024-12-03 18:13:07,448 - INFO - Successfully logged in with account: xitobeg248@zenipla.com
 2024-12-03 18:13:07,453 - INFO - Using Fewfeed to join groups
 2024-12-03 18:13:40,839 - INFO - Using Fewfeed to post to groups
+2024-12-03 18:43:25,308 - ERROR - Error processing account hpn29636@inohm.com: HTTPConnectionPool(host='localhost', port=32440): Read timed out. (read timeout=120)
+2024-12-03 18:44:46,835 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=32439): Read timed out. (read timeout=120)")': /session/c45c8258046edbbf103791c8d29bf682/title
+2024-12-03 18:45:25,346 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=32440): Read timed out. (read timeout=120)")': /session/4baaa85396f23a7d6df1e78330531d94

@@ -9,14 +9,13 @@ import time
 def setup_browser_with_extension(extension_files):
     """Setup the browser with the given extension."""
     options = webdriver.ChromeOptions()
-    options.headless = False
     for ext in extension_files:
         options.add_extension(ext)  # Load each extension
     
     browser = webdriver.Chrome(options=options)
     
     # Set the browser size to a standard resolution (non-mobile)
-    browser.set_window_size(0, 700)  # Set to a larger screen size
+    browser.set_window_size(200, 650)  # Set to a larger screen size
     return browser
 
 def login_to_facebook(browser, username, password):

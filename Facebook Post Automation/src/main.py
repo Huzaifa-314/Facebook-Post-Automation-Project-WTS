@@ -14,6 +14,7 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+
 def process_account(status_queue, inputs, username, link, group_uuids, account_index):
     """
     Process a single account: login to Facebook, join groups, and post.
@@ -29,6 +30,9 @@ def process_account(status_queue, inputs, username, link, group_uuids, account_i
 
         # Install and load the extensions
         browser = setup_browser_with_extension([inputs["extension_file_1"], inputs["extension_file_2"]])
+        global current_browser 
+        current_browser = [browser]
+        # print(current_browser)
 
         # Update status
         status["status"] = "Logging in to Facebook"

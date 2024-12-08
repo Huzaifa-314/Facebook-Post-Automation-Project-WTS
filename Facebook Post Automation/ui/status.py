@@ -17,6 +17,7 @@ class StatusUI(threading.Thread):
         self.log_text = None
         self.thread_boxes = []
         self.running = True
+        self.browsers = []  # This will store browser instances for each thread
 
     def run(self):
         self.root = tk.Tk()
@@ -57,9 +58,9 @@ class StatusUI(threading.Thread):
         canvas.pack(side="left", fill="both", expand=True)
         scrollbar.pack(side="right", fill="y")
 
-        # Create thread boxes
+        # Create thread boxes without the Show Browser button
         for i in range(self.max_threads):
-            box = self.create_thread_box(scrollable_frame, f"Thread {i+1}")
+            box = self.create_thread_box(scrollable_frame, f"Account Status", i)
             box.grid(row=i, column=0, padx=5, pady=5, sticky="ew")
             self.thread_boxes.append(box)
 
@@ -78,9 +79,9 @@ class StatusUI(threading.Thread):
         )
         self.log_text.pack(fill="both", expand=True)
 
-    def create_thread_box(self, parent, label):
+    def create_thread_box(self, parent, label, thread_index):
         """
-        Create a single thread status box with toggling capability.
+        Create a single thread status box without the Show Browser button.
         """
         frame = tk.Frame(parent, bg="lightgray", bd=2, relief=tk.RAISED)
         frame.grid_columnconfigure(1, weight=1)
@@ -89,12 +90,6 @@ class StatusUI(threading.Thread):
         status_label = tk.Label(frame, text=label, bg="lightgray", font=("Arial", 12))
         status_label.grid(row=0, column=0, padx=5, pady=5)
 
-        # Toggle browser button
-        toggle_button = tk.Button(
-            frame, text="Show Browser", command=lambda: self.toggle_browser(frame)
-        )
-        toggle_button.grid(row=0, column=1, padx=5, pady=5)
-
         # Status indicator
         indicator = tk.Label(frame, text="Idle", bg="lightgray", font=("Arial", 10), anchor="w")
         indicator.grid(row=1, column=0, columnspan=2, padx=5, pady=5, sticky="w")
@@ -102,21 +97,8 @@ class StatusUI(threading.Thread):
         # Store references
         frame.status_label = status_label
         frame.indicator = indicator
-        frame.toggle_button = toggle_button
 
         return frame
-
-    def toggle_browser(self, frame):
-        """
-        Show or hide the browser corresponding to the thread.
-        """
-        button = frame.toggle_button
-        if button["text"] == "Show Browser":
-            # Logic to show the browser (dummy for now)
-            button["text"] = "Hide Browser"
-        else:
-            # Logic to hide the browser (dummy for now)
-            button["text"] = "Show Browser"
 
     def update_statuses(self):
         """
@@ -145,3 +127,12 @@ class StatusUI(threading.Thread):
         """
         self.running = False
         self.root.destroy()
+
+    def set_browser_for_thread(self, thread_index, browser):
+        """
+        Set the browser for a specific thread.
+        """
+        if len(self.browsers) <= thread_index:
+            # Extend the list if necessary
+            self.browsers.extend([None] * (thread_index + 1 - len(self.browsers)))
+        self.browsers[thread_index] = browser

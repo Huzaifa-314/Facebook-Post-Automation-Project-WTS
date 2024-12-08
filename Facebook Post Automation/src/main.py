@@ -1,11 +1,9 @@
 import logging
 from itertools import cycle
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from src.browser import setup_browser_with_extension, login_to_facebook
 from src.fewfeed import join_groups, post_to_groups
 from ui.inputs import BotUI
 from ui.status import StatusUI  # Import the Status UI class
-import time
 import tkinter as tk
 import queue
 
@@ -65,7 +63,6 @@ def start_browser_and_login(inputs):
     """
     try:
         # Extract inputs from UI
-        threads = int(inputs["threads"])
         accounts_file = inputs["accounts_file"]
         links_file = inputs["links_file"]
         group_uuids_file = inputs["group_uuids_file"]
@@ -86,35 +83,19 @@ def start_browser_and_login(inputs):
         # Use links in a round-robin fashion
         link_cycle = cycle(links)
 
-        # Create a queue for thread statuses
+        # Create a queue for status updates
         status_queue = queue.Queue()
 
         # Launch Status UI
-        status_ui = StatusUI(status_queue, len(usernames), threads)
+        status_ui = StatusUI(status_queue, len(usernames), 1)  # 1 thread for sequential execution
         status_ui.start()
 
-        # Process accounts with a ThreadPoolExecutor
-        with ThreadPoolExecutor(max_workers=threads) as executor:
-            futures = {
-                executor.submit(
-                    process_account,
-                    status_queue,
-                    inputs,
-                    username,
-                    next(link_cycle),
-                    group_uuids,
-                    account_index
-                ): username for account_index, username in enumerate(usernames)
-            }
+        # Process accounts sequentially
+        for account_index, username in enumerate(usernames):
+            link = next(link_cycle)
+            process_account(status_queue, inputs, username, link, group_uuids, account_index)
 
-            # Wait for all threads to complete
-            for future in as_completed(futures):
-                username = futures[future]
-                try:
-                    future.result()
-                except Exception as e:
-                    logging.error(f"Error processing account {username}: {e}")
-                    print(f"Error processing account {username}: {e}")
+        status_queue.put({"status": "All accounts processed successfully."})
 
     except Exception as e:
         logging.error(f"An error occurred: {e}")
